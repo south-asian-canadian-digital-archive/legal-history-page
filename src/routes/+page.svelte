@@ -5,7 +5,7 @@
 <main class="flex flex-col items-center mb-4">
   <div
     class="bg-[#343A40] bg-cover bg-center w-full"
-    style="background-image: url(/img4.jpg);"
+    style="background-image: url(https://www.southasiancanadianheritage.ca/wp-content/uploads/2024/01/img4.jpg);"
   >
     <h1
       class="text-4xl text-white font-semibold bg-[#1C375E] bg-opacity-50 w-full h-full py-60 flex items-center justify-center"
@@ -42,7 +42,7 @@
 
   <section>
     <div class="flex flex-row-reverse">
-      <img src="/img1.jpg" alt="" class="w-1/2 h-auto" />
+      <img src="https://www.southasiancanadianheritage.ca/wp-content/uploads/2024/01/img1.jpg" alt="" class="w-1/2 h-auto" />
       <div class="flex flex-col items-center justify-center gap-4 p-28">
         <h2 class="text-4xl font-medium">
           Immigration Act 1906 and continuous journey Act 1908
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="flex">
-      <img src="/img2.jpg" alt="" class="w-1/2 h-auto" />
+      <img src="https://www.southasiancanadianheritage.ca/wp-content/uploads/2024/01/img2.jpg" alt="" class="w-1/2 h-auto" />
       <div class="flex flex-col items-center justify-center gap-4 p-28">
         <h2 class="text-4xl font-medium w-full">Dominion Elections Act</h2>
         <p class="text-xl font-light">
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="flex flex-row-reverse w-full">
-      <img src="/img3.jpg" alt="" class="w-1/2 h-au" />
+      <img src="https://www.southasiancanadianheritage.ca/wp-content/uploads/2024/01/img3.jpg" alt="" class="w-1/2 h-au" />
       <div class="flex flex-col items-center justify-center gap-4 p-28">
         <h2 class="text-4xl font-medium w-full">The Komagata Maru Incident</h2>
         <p class="text-xl font-light">
