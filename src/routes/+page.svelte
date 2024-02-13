@@ -49,7 +49,7 @@
   <div class="sticky top-0 left-0 overflow-clip -z-50">
     <div
       class="background-container bg-cover w-screen h-screen bg-center"
-      style="background-image: url(/img4.jpg);"
+      style="background-image: url(./img4.jpg);"
       bind:this={background_container}
     ></div>
     <!-- background -->
@@ -72,7 +72,7 @@
       </h1>
     </div>
 
-    <div id="about" class="section">
+    <div id="about" class="section" style="background-image: url(./text-bg.jpg);">
       <h2>About</h2>
       <p>
         Canada, known for its multicultural society and commitment to human
@@ -84,7 +84,11 @@
         community in dealing with systemic prejudice.
       </p>
     </div>
-    <div id="section1" class="section">
+    <div
+      id="section1"
+      class="section"
+      style="background-image: url(./text-bg.jpg);"
+    >
       <h2>Immigration Act 1906 and continuous journey Act 1908</h2>
       <p>
         The Immigration Act of 1906 marked a significant shift towards stricter
@@ -99,7 +103,11 @@
         this posed a considerable obstacle to immigrants from South Asia.
       </p>
     </div>
-    <div id="section2" class="section">
+    <div
+      id="section2"
+      class="section"
+      style="background-image: url(./text-bg.jpg);"
+    >
       <h2>Dominion Elections Act</h2>
       <p>
         In 1920, the Dominion Elections Act resulted in the removal of federal
@@ -110,7 +118,11 @@
         their right to vote.
       </p>
     </div>
-    <div id="section3" class="section">
+    <div
+      id="section3"
+      class="section"
+      style="background-image: url(./text-bg.jpg);"
+    >
       <h2>The Komagata Maru Incident</h2>
       <p>
         This incident unfolded during the spring and summer of 1914, just before
@@ -130,8 +142,9 @@
 </main>
 
 <div class="flex flex-col items-center justify-center py-20">
-
-  <h2 class="text-4xl font-semibold border-b-2 pb-6 w-[80%] text-center">A Timeline of Discriminatory laws</h2>
+  <h2 class="text-4xl font-semibold border-b-2 pb-6 w-[80%] text-center">
+    A Timeline of Discriminatory laws
+  </h2>
 
   <div id="timeline" class="flex items-center justify-center h-screen w-full">
     <iframe
@@ -148,7 +161,7 @@
 <style type="postcss">
   .section {
     @apply m-56 p-14 flex flex-col items-center justify-center gap-10 text-black text-center;
-    background: url("./text-bg.jpg");
+    background-image: url("./text-bg.jpg");
     background-size: cover;
     clip-path: polygon(
       3% 0,
