@@ -16,8 +16,8 @@
   };
   let current_section = "title";
   const scroll_handler = (e: UIEvent) => {
-    let current_section_id = find_inview_section();
-    if (current_section_id)
+    let current_section_id = find_inview_section() as string;
+    if (Object.keys(section_map).includes(current_section_id))
       if (current_section_id !== current_section) {
         change_background(
           section_map[current_section_id as keyof typeof section_map]
@@ -66,7 +66,7 @@
       class="h-screen flex justify-center items-center -translate-y-[50vh]"
     >
       <h1
-        class="text-4xl text-white font-bold w-full h-full flex items-center justify-center"
+        class="text-4xl text-white font-bold w-full h-full flex items-center justify-center text-center"
       >
         Discriminatory Laws affecting South Asians across Canada
       </h1>
@@ -160,7 +160,7 @@
 
 <style type="postcss">
   .section {
-    @apply m-56 p-14 flex flex-col items-center justify-center gap-10 text-black text-center;
+    @apply lg:m-56 md:m-56 my-56 p-14 flex flex-col items-center justify-center gap-10 text-black text-center;
     background-image: url("./text-bg.jpg");
     background-size: cover;
     clip-path: polygon(

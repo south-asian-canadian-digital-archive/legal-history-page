@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<main class="flex flex-col items-center mb-4">
+<main class="flex-col items-center mb-4 hidden">
   <div
     class="bg-[#343A40] bg-cover bg-center w-full"
     style="background-image: url(https://www.southasiancanadianheritage.ca/wp-content/uploads/2024/01/img4.jpg);"
