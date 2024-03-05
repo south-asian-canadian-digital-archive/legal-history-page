@@ -48,7 +48,7 @@
 <main class="relative">
   <div class="sticky top-0 left-0 overflow-clip -z-50">
     <div
-      class="background-container bg-cover w-screen h-screen bg-center"
+      class="background-container bg-cover w-screen h-screen bg-center transition-all duration-500 ease-in-out"
       style="background-image: url(./img4.jpg);"
       bind:this={background_container}
     ></div>
@@ -66,9 +66,9 @@
       class="h-screen flex justify-center items-center -translate-y-[50vh]"
     >
       <h1
-        class="text-4xl text-white font-bold w-full h-full flex items-center justify-center text-center"
+        class="text-6xl text-[#ffffff] font-bold flex h-full w-full items-center justify-center text-center bg-[#5353537f]"
       >
-        Discriminatory Laws affecting South Asians across Canada
+        Timeline of Discriminatory Laws: A South Asian History 
       </h1>
     </div>
 
@@ -288,7 +288,8 @@
     -ms-user-select: none;
     -webkit-animation: zoomin 40s ease-in;
     animation: zoomin 40s ease-in;
-    transition: all 0.4s linear;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     overflow: hidden;
   }
 
