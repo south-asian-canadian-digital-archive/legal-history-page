@@ -13,9 +13,10 @@
   <ParallaxLayer offset={0} rate={1.3}>
     <div id="title" class="h-screen flex justify-center items-center">
       <h1
-        class="text-6xl text-[#ffffff] font-bold flex h-full w-full items-center justify-center text-center bg-[#5353537f]"
+        class="text-6xl text-[#ffffff] font-bold flex flex-col gap-4 h-full w-full items-center justify-center text-center bg-[#5353537f] font-lexend-peta"
       >
         Timeline of Discriminatory Laws: A South Asian History
+        <span class="text-base w-[70%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore incidunt similique vitae id reprehenderit. Eos odio, quas maiores fugit nemo est, eaque odit iste mollitia minima obcaecati minus animi.</span>
       </h1>
     </div>
   </ParallaxLayer>
@@ -24,9 +25,9 @@
 
     <div
       id="about"
-      class="flex flex-row items-center justify-center h-screen w-full p-20 bg-[#f3f3f3] gap-10"
+      class="flex flex-row items-center justify-center h-screen w-full pl-20 gap-10 bg-[#f3f3f3]"
     >
-      <div class="flex flex-col gap-10 w-1/2">
+      <div class="flex flex-col gap-10 font-mono">
         <h2 class="font-bold text-6xl">About</h2>
         <p class="text-lg">
           Canada, known for its multicultural society and commitment to human
@@ -38,14 +39,14 @@
           Asian community in dealing with systemic prejudice.
         </p>
       </div>
-      
-      <div class="w-1/2">
-        <img src="./img2.jpg" alt="img" class="rounded-lg" />
+
+      <div class="min-w-[50vw] h-full">
+        <img src="./img2.jpg" alt="img" class="w-full h-full object-cover" />
       </div>
     </div>
 
     <div class="flex flex-col items-center h-screen justify-center pt-20">
-      <h2 class="text-4xl font-semibold border-b-2 pb-6 w-[80%] text-center">
+      <h2 class="text-4xl font-semibold border-b-2 pb-6 w-[80%] text-center font-mono">
         A Timeline of Discriminatory laws
       </h2>
 
@@ -60,6 +61,7 @@
           allowfullscreen
           frameborder="0"
           title="Timeline"
+          class="border shadow-lg"
         ></iframe>
       </div>
     </div>
