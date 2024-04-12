@@ -38,6 +38,7 @@
           Asian community in dealing with systemic prejudice.
         </p>
       </div>
+      
       <div class="w-1/2">
         <img src="./img2.jpg" alt="img" class="rounded-lg" />
       </div>
