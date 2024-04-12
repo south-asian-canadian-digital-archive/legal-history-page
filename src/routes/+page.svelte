@@ -13,10 +13,10 @@
   <ParallaxLayer offset={0} rate={1.3}>
     <div id="title" class="h-screen flex justify-center items-center">
       <h1
-        class="text-6xl text-[#ffffff] px-[15%] pt-48 font-semibold flex flex-col gap-4 h-full w-full items-center text-center bg-[#5353537f] font-mono"
+        class="lg:text-6xl md:text-6xl text-3xl text-[#ffffff] px-[15%] lg:pt-48 md:pt-48 pt-36 font-semibold flex flex-col gap-4 h-full w-full items-center text-center bg-[#5353537f] font-mono"
       >
         Timeline of Discriminatory Laws: A South Asian History
-        <span class="text-base font-normal px-[10%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore incidunt similique vitae id reprehenderit. Eos odio, quas maiores fugit nemo est, eaque odit iste mollitia minima obcaecati minus animi.</span>
+        <span class="lg:text-base md:text-base text-sm font-normal px-[10%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore incidunt similique vitae id reprehenderit. Eos odio, quas maiores fugit nemo est, eaque odit iste mollitia minima obcaecati minus animi.</span>
       </h1>
     </div>
   </ParallaxLayer>
@@ -25,11 +25,11 @@
 
     <div
       id="about"
-      class="flex flex-row items-center justify-center h-screen w-full pl-20 gap-10 bg-[#f3f3f3]"
+      class="flex lg:flex-row md:flex-row flex-col items-center justify-center h-screen w-full lg:pl-20 md:pl-20 lg:p-0 md:p-0 p-10 gap-10 bg-[#f3f3f3]"
     >
       <div class="flex flex-col gap-10 font-mono">
-        <h2 class="font-bold text-6xl">About</h2>
-        <p class="text-lg">
+        <h2 class="font-bold lg:text-6xl md:text-6xl text-4xl">About</h2>
+        <p class="lg:text-lg md:text-lg text-sm">
           Canada, known for its multicultural society and commitment to human
           rights, has a history marked by discriminatory laws, policies, and
           practices targeted at various communities. This platform aims to shed
