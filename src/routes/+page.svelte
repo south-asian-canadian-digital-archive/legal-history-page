@@ -16,7 +16,11 @@
         class="lg:text-4xl md:text-6xl text-3xl text-[#ffffff] px-[15%] lg:pb-16 md:pb-16 pt-36 font-semibold flex flex-col gap-4 w-full items-center text-center font-mono"
       >
         Timeline of Discriminatory Laws: A South Asian History
-        <span class="lg:text-base md:text-base text-sm font-normal px-[10%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore incidunt similique vitae id reprehenderit. Eos odio, quas maiores fugit nemo est, eaque odit iste mollitia minima obcaecati minus animi.</span>
+        <span class="lg:text-base md:text-base text-sm font-normal px-[10%]">
+Exploring the historical records, we seek to
+          illuminate the adversities, obstacles, and victories of the South
+          Asian community in dealing with systemic prejudice.
+        </span>
       </h1>
     </div>
   </ParallaxLayer>
@@ -34,9 +38,7 @@
           rights, has a history marked by discriminatory laws, policies, and
           practices targeted at various communities. This platform aims to shed
           light on the development of racist laws and practices against South
-          Asians in Canada. Exploring the historical records, we seek to
-          illuminate the adversities, obstacles, and victories of the South
-          Asian community in dealing with systemic prejudice.
+          Asians in Canada. 
         </p>
       </div>
 
