@@ -11,9 +11,9 @@
   </ParallaxLayer>
 
   <ParallaxLayer offset={0} rate={1.3}>
-    <div id="title" class="h-screen flex justify-center items-center">
+    <div id="title" class="h-screen flex justify-center items-end bg-[#5353537f]">
       <h1
-        class="lg:text-6xl md:text-6xl text-3xl text-[#ffffff] px-[15%] lg:pt-48 md:pt-48 pt-36 font-semibold flex flex-col gap-4 h-full w-full items-center text-center bg-[#5353537f] font-mono"
+        class="lg:text-4xl md:text-6xl text-3xl text-[#ffffff] px-[15%] lg:pb-16 md:pb-16 pt-36 font-semibold flex flex-col gap-4 w-full items-center text-center font-mono"
       >
         Timeline of Discriminatory Laws: A South Asian History
         <span class="lg:text-base md:text-base text-sm font-normal px-[10%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore incidunt similique vitae id reprehenderit. Eos odio, quas maiores fugit nemo est, eaque odit iste mollitia minima obcaecati minus animi.</span>
